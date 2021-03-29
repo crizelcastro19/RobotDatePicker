@@ -1,0 +1,7 @@
+1615430771425	geckodriver	INFO	Listening on 127.0.0.1:52539
+1615430774572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CCASTR~1\\AppData\\Local\\Temp\\rust_mozprofile60PkOw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615430786122	Marionette	INFO	Listening on port 52547
+1615430786623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-5Q664QZ, line 2777: NS_ERROR_NOT_INITIALIZED: 
+1615430801472	Marionette	INFO	Stopped listening on port 52547
