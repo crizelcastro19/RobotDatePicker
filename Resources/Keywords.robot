@@ -6,8 +6,10 @@ Resource   ../../Resources/Locator.robot
 
 *** Keywords ***
 Start TestCase
-    Open Browser    ${URL}      ${Browser}
+    Open Browser  ${EMPTY}    ${Browser}
     Maximize Browser Window
+Visit Url
+    Go To    ${URL}
 Select Tab Drop Down
     Click Element    ${tab_dropDown_XPATH}
 
@@ -47,6 +49,9 @@ Sort Table via Name Ascending
         Wait Until Element Is Visible    ${th_asc}          30
         Click Element                    ${th_asc}
 
+Sort Table via Name Descending
+        Wait Until Element Is Visible    ${th_desc}        30
+        Click Element                    ${th_desc}
 
 
 #ExcelSheet_Data

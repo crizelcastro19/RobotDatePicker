@@ -39,15 +39,34 @@ ${input_Email} =                //input[@id='email']
 ${input_Password} =             //input[@id='password']
 ${btn_Create_account} =         //button[text()='Create an account']
 
-
+${dropdown_entries} =           //select[@aria-controls='example']
 ${th_asc} =                     //th[@class='sorting_asc']
+${th_desc} =                    //th[@class='sorting_desc']
+${btn_Next} =                   //a[@class='paginate_button next']
+${data_Search} =                //td[@data-search='Yuri Berry']
+${input_Search} =               //input[@type="search"]
+${btn_Prev} =                   //a[@class='paginate_button previous']
+${pagination_size} =            //div[@id='example_paginate' ]//a[@aria-controls='example']
+
+${btn_Twitter} =                //a[@href="https://twitter.com/intent/follow?screen_name=seleniumeasy"]
+${input_username_twitter} =     //input[@name="session[username_or_email]"]
+${input_password_twitter} =     //input[@name="session[password]"]
+
+${input_fname} =                //input[@name='first_name']
+${input_lname} =                //input[@name='last_name']
+
+
+${username_XPATH}=                  //input[@id='ctl00_CPHContainer_txtUserLogin']
+${password_XPATH}=                  //input[@id='ctl00_CPHContainer_txtPassword']
+${btn_Login_XPATH} =                //input[@type='submit' and @id='ctl00_CPHContainer_btnLoginn']
+
+${listbox_XPATH} =                  //div[@class='dual-list list-left col-md-5']
+${lb_data} =                        //li[text()='
+${lb_extend} =                      ']
 
 *** Keywords ***
 
 
-#${username_XPATH} =         //input[@id='ctl00_CPHContainer_txtUserLogin']
-#${password_XPATH} =         //input[@id='ctl00_CPHContainer_txtPassword']
-#${btn_Login_XPATH} =        //input[@type='submit' and @id='ctl00_CPHContainer_btnLoginn']
 
 #${start_Date} =     //div[@class='xp__dates-inner xp__dates__checkin']
 #${click_Date} =     //td[@data-date='2021-12-10']
